@@ -1,0 +1,37 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}
+
+.header__list {
+    text-align: center;
+}
+
+.header__item {
+    display: inline-block;
+    list-style: none;
+}
+
+.header__item a {
+    display: inline-block;
+    padding: 25px 35px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #FF0000;
+}
