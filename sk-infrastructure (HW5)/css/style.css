@@ -1,0 +1,40 @@
+@import url('reset.css');
+@import url('fonts.css');
+
+
+body {
+    background-color: #171717;
+}
+
+.container {
+    max-width: 1460px;
+    margin: 0 auto;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 37px 0;
+}
+
+.header__contact-link {
+    /* add font */
+    font-family: 'Circe'; 
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #E4B564;
+    padding: 10px 25px 10px 49px;
+    border: 1px solid #E4B564;
+    position: relative;
+}
+
+.header__contact-link::before {
+    content: '';
+    position: absolute;
+    left: 25px;
+    bottom: 17px;
+    height: 13px;
+    width: 13px;
+    background-image: url('../icons/phone.svg');
+}
