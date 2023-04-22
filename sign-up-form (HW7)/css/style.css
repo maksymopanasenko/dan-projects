@@ -3,13 +3,14 @@
 .body {
     font-family: 'Ubuntu', sans-serif;
     background: url('../img/equipment-bg.webp') center center/cover no-repeat;
-    /* height: 100vh; */
 }
 
 .container {
     max-width: 1208px;
     margin: 0 auto;
 }
+
+/* header */
 
 .header {
     background: rgba(0, 0, 0, 0.4);
@@ -88,7 +89,6 @@
     fill:#3CB878;
 }
 
-
 /* section modal */
 
 .modal {
@@ -101,7 +101,6 @@
 .modal__holder {
     max-width: 444px;
     padding: 31px 60px 38px;
-    /* margin: 54px auto 0; */
     background: #FFFFFF;
     box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.52);
     text-align: center;
@@ -135,6 +134,7 @@
     font-size: 14px;
     line-height: 1;
     color: #3CB878;
+    transition: .3s;
 }
 
 .modal__sign-methods {
@@ -154,6 +154,11 @@
     width: 100%;
     border-radius: 4px;
     position: relative;
+}
+
+.modal__sign-link:hover {
+    background: #022263;
+    transition: .3s;
 }
 
 .modal__sign-link span{
@@ -176,6 +181,11 @@
 
 .modal__sign-link_red {
     background: #DF4A32;
+    transition: .3s;
+}
+
+.modal__sign-link_red:hover {
+    background: #AB1F09;
 }
 
 .modal__divider {
@@ -212,6 +222,15 @@
     font-size: 14px;
     line-height: 1;
     color: #434343;
+    outline: #434343;
+}
+
+.modal__input::placeholder {
+    color: #BEBEBE;
+}
+
+.modal__input:focus {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
 }
 
 .modal__policy {
@@ -255,6 +274,13 @@
 .modal__text a{
     margin-left: 5px;
     color: #3CB878;
+    transition: .3s;
+}
+
+.modal__text a:hover,
+.modal__login-link:hover {
+    text-decoration: underline;
+    color: #01813F;
 }
 
 .modal__btn {
@@ -265,4 +291,9 @@
     font-size: 16px;
     line-height: 1;
     color: #FFFFFF;
+    transition: .3s;
+}
+
+.modal__btn:hover {
+    background: #01813F;
 }
