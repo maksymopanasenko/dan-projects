@@ -2,4 +2,138 @@
 
 .body {
     font-family: 'Arimo', sans-serif;
+    background-color: #3A4965;
+}
+
+.container {
+    max-width: 1143px;
+    margin: 0 auto;
+}
+
+.price {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.price__table {
+    border-collapse: collapse;
+    background: #FAFAFA;
+    text-align: center;
+}
+
+.table__headline {
+    background: #89C331;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.table__headline_red {
+    background: #F04A56;
+}
+
+.table__headline_blue {
+    background: #20807C;
+}
+
+.table__headline_text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.56;
+    text-transform: uppercase;
+    color: #484848;
+    background: #FAFAFA;
+}
+
+.table__headline_text_bold {
+    font-size: 30px;
+    display: block;
+}
+
+.price__col_prop {
+    width: 311px;
+}
+
+.price__col_value {
+    width: 280px;
+}
+
+.table__headline {
+    height: 73px;
+}
+
+td {
+    height: 70px;
+}
+
+.table__price {
+    height: 89px;    
+    background: #FAFAFA;
+}
+
+.table__price_body {
+    display: flex;
+    justify-content: center;
+}
+
+.table__price_whole {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #484848;
+    padding-top: 16px;
+}
+
+.table__price_change {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    color: #484848;
+    transform: translateY(5px);
+}
+
+.table__price_caption {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.56;
+    text-transform: uppercase;
+    color: #484848;
+}
+
+.table__price_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.table__body-rows {
+    background: #F2F2F2;
+}
+
+.table__body-rows:nth-child(even) {
+    background: #E3E3E3;
+}
+
+.table__body-cell,
+.table__price {
+    border-right: 2px solid rgba(0, 0, 0, 0.27);
+    border-left: 2px solid rgba(0, 0, 0, 0.27);
+}
+
+.table__body-cell:last-child,
+.table__price:last-child {
+    border-right: none;
+}
+
+.table__body-cell {
+    font-size: 16px;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #484848;
 }
