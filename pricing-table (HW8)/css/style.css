@@ -34,6 +34,8 @@
 
 .table__headline_red {
     background: #F04A56;
+    font-size: 30px;
+    line-height: 1;
 }
 
 .table__headline_blue {
@@ -55,11 +57,11 @@
     display: block;
 }
 
-.price__col_prop {
+.table__col_prop {
     width: 311px;
 }
 
-.price__col_value {
+.table__col_value {
     width: 280px;
 }
 
@@ -121,17 +123,17 @@ td {
     background: #E3E3E3;
 }
 
-.table__body-cell:not(:first-child),
-.table__price,
-.table__footer-cell:not(:first-child) {
-    border-left: 2px solid rgba(0, 0, 0, 0.27);
-}
-
 .table__body-cell {
     font-size: 16px;
     line-height: 1;
     text-transform: uppercase;
     color: #484848;
+}
+
+.table__body-cell:not(:first-child),
+.table__price,
+.table__footer-cell:not(:first-child) {
+    border-left: 2px solid rgba(0, 0, 0, 0.27);
 }
 
 .table__footer-cell {
@@ -141,6 +143,15 @@ td {
     text-transform: uppercase;
     color: #FFFFFF;
     height: 108px;
+    background: #EEEEEE;
+}
+
+.table__footer-cell:first-child {
+    background: #DDDDDD;
+}
+
+.table__footer-cell:nth-child(3) {
+    background: #F4F4F4;
 }
 
 .table__footer-link {
