@@ -1,1 +1,62 @@
 @import url('reset.css');
+
+.body {
+    font-family: 'Arimo', sans-serif;
+    background-color: #3A4965;
+}
+
+/* .container {
+    max-width: 1143px;
+    margin: 0 auto;
+} */
+
+.pricing-table {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table {
+    border-collapse: collapse;
+    background: #F2F2F2;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.table__col_plan {
+    width: 200px;
+}
+
+.table__col_value {
+    width: 160px;
+}
+.table__col_value_dark {
+    background: #E3E3E3;
+}
+
+.table__headline {
+    height: 102px;
+    border-bottom: 10px solid #3A4965;
+}
+
+.table__headline_text {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
+    color: #484848;
+}
+
+.table__headline_text_thin {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    color: #484848;
+}
+
+
+.table__data,
+.table__plan {
+    height: 167px;
+}

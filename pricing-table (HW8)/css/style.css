@@ -22,6 +22,14 @@
     text-align: center;
 }
 
+.table__col_prop {
+    width: 311px;
+}
+
+.table__col_value {
+    width: 280px;
+}
+
 .table__headline {
     background: #89C331;
     font-weight: 700;
@@ -55,14 +63,6 @@
     font-size: 30px;
     line-height: 1;
     display: block;
-}
-
-.table__col_prop {
-    width: 311px;
-}
-
-.table__col_value {
-    width: 280px;
 }
 
 .table__headline {
