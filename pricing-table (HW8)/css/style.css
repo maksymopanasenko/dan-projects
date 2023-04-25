@@ -10,13 +10,13 @@
     margin: 0 auto;
 }
 
-.price {
+.pricing-table {
     height: 100vh;
     display: flex;
     align-items: center;
 }
 
-.price__table {
+.table {
     border-collapse: collapse;
     background: #FAFAFA;
     text-align: center;
@@ -74,7 +74,7 @@ td {
 }
 
 .table__price {
-    height: 89px;    
+    height: 817%;    
     background: #FAFAFA;
 }
 
@@ -154,22 +154,22 @@ td {
     background: #F4F4F4;
 }
 
-.table__footer-link {
+.table__btn {
     display: inline-block;
     width: 192px;
     padding: 18px 0;
     border-radius: 5px;
-    background: linear-gradient(0deg, #404040 20%, #484848 0%);
+    background: linear-gradient(0deg, #404040 17%, #484848 0%);
 }
 
-.table__footer-link_green {
-    background: linear-gradient(0deg, #79B027 20%, #89C331 0%);
+.table__btn_green {
+    background: linear-gradient(0deg, #79B027 17%, #89C331 0%);
 }
 
-.table__footer-link_red {
-    background: linear-gradient(0deg, #DF3A46 20%, #F04A56 0%);
+.table__btn_red {
+    background: linear-gradient(0deg, #DF3A46 17%, #F04A56 0%);
 }
 
-.table__footer-link_blue {
-    background: linear-gradient(0deg, #16736F 20%, #20807C 0%);
+.table__btn_blue {
+    background: linear-gradient(0deg, #16736F 17%, #20807C 0%);
 }
