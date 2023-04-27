@@ -5,14 +5,10 @@
     background-color: #3A4965;
 }
 
-.container {
-    max-width: 1143px;
-    margin: 0 auto;
-}
-
 .pricing-table {
     height: 100vh;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -133,7 +129,7 @@ td {
 .table__body-cell:not(:first-child),
 .table__price,
 .table__footer-cell:not(:first-child) {
-    border-left: 2px solid rgba(0, 0, 0, 0.27);
+    border-left: 2px solid #c7c7c7;
 }
 
 .table__footer-cell {
