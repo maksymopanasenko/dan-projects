@@ -1,1 +1,71 @@
 @import url('reset.css');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+.body {
+    background: #000;
+    color: #ffe103;
+    font-family: sans-serif;
+    font-size: 59px;
+    font-weight: 700;
+    line-height: 1.4;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
+.episode {
+    margin: 0 auto;
+    perspective: 375px;
+    perspective-origin: bottom;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: visible;
+    transform: scaleY(0.9);
+}
+
+.episode__content {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    right: 10%;
+    height: 180%;
+    animation: scroller 30s ease-in infinite;
+}
+
+.episode__title,
+.episode__subtitle {
+    text-align: center;    
+    margin-bottom: 70px;
+    text-transform: uppercase;
+}
+
+.episode__text,
+.episode__pretext {
+    letter-spacing: 4px;
+}
+
+.episode__pretext {
+    margin-bottom: 80px;
+}
+
+.episode__text {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+@keyframes scroller {
+    0% {
+        transform: rotateX(21deg) translate3d(0, 40rem, 0);
+        opacity: 1;
+    }
+    95% {
+        opacity: 1;
+    }
+    100% {
+        transform: rotateX(21deg) translate3d(0, -160%, 0);
+        opacity: 0;
+    }
+}
